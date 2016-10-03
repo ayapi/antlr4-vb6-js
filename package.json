@@ -1,0 +1,30 @@
+{
+  "name": "antlr4-vb6",
+  "version": "0.0.1",
+  "description": "Visual Basic 6.0 Lexer & Parser for ANTLR4 JavaScript target",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "antlr4 -o ./dist -Dlanguage=JavaScript -no-visitor -no-listener ./src/VisualBasic6.g4",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ayapi/antlr4-vb6-js.git"
+  },
+  "keywords": [
+    "antlr4",
+    "vb6",
+    "vb",
+    "ast"
+  ],
+  "author": "ayapi",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ayapi/antlr4-vb6-js/issues"
+  },
+  "homepage": "https://github.com/ayapi/antlr4-vb6-js#readme",
+  "dependencies": {
+    "antlr4": "^4.5.3"
+  }
+}
