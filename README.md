@@ -1,7 +1,7 @@
 # Visual Basic 6.0 Grammar for ANTLR4 JavaScript
 
 prebuilt for ANTLR4 JavaScript target.  
-grammer is originally cloned from [uwol/vb6grammar](https://github.com/uwol/vb6grammar).  
+grammar is originally cloned from [uwol/vb6grammar](https://github.com/uwol/vb6grammar).  
 
 ## How to use
 
